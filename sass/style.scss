@@ -97,12 +97,14 @@ body {
   left: 0;
   padding: 40px;
   text-align: justify;
-  transition: .5s;
+  transition: opacity .5s;
+  z-index: -1;
 
   &.active {
     opacity: 1;
     z-index: 1;
     position: static;
+    padding: 0;
   }
 }
 
@@ -117,3 +119,30 @@ body {
     margin: 0 10px 0 0;
   }
 }
+
+.tag-size-1 {
+  font-size: 1rem;
+}
+
+.tag-size-2 {
+  font-size: 1.3rem;
+}
+
+.tag-size-3 {
+  font-size: 1.6rem;
+}
+
+.tag-size-4 {
+  font-size: 1.9rem;
+}
+
+.tag-size-5 {
+  font-size: 2.1rem;
+}
+
+.list.tags {
+  display: inline;
+
+}
+
+
