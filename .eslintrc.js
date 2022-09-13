@@ -18,7 +18,7 @@ export default {
         "react"
     ],
     "rules": {
-    }
+    },
     "globals": {
       "Handlebars": false
     }
