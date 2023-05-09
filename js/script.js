@@ -121,7 +121,6 @@ function generateTags() {
   }
 
   tagList.innerHTML = templates.tagCloudLink(allTagsData);
-  console.log(allTagsData);
 }
 
 generateTags();
@@ -187,7 +186,6 @@ function generateAuthors() {
   }
 
   allAuthorsList.innerHTML = templates.allArticleAuthors(allAuthorsData);
-  console.log(allAuthorsData);
 }
 
 generateAuthors();
